@@ -159,13 +159,13 @@
         <TableRow>
 
             <Button
-                android:id="@+id/buttonAC"
+                android:id="@+id/buttonComma"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
                 android:layout_marginLeft="16dp"
                 android:layout_marginTop="16dp"
-                android:text="AC" />
+                android:text="." />
 
             <Button
                 android:id="@+id/button0"
@@ -192,6 +192,20 @@
                 android:layout_marginLeft="16dp"
                 android:layout_marginTop="16dp"
                 android:text="/" />
+
+        </TableRow>
+
+        <TableRow>
+        android:layout_height="wrap_content"
+
+            <Button
+                android:id="@+id/buttonAC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:text="AC" />
 
         </TableRow>
 
