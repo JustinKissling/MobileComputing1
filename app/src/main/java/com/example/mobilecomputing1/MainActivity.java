@@ -190,6 +190,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             if (!isSymbol(getLastElementOfEquationText()) && !equationText.getText().toString().equals("NaN")) {
                 equationText.append(String.valueOf(input));
                 commaCounter = 0;
+            } else {
+                removeSymbolsAtEquationEnd();
+                equationText.append(String.valueOf(input));
             }
         }
 
